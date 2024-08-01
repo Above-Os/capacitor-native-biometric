@@ -1,6 +1,6 @@
 {
-  "name": "@capgo/capacitor-native-biometric",
-  "version": "6.0.1",
+  "name": "@bytetrade/capacitor-native-biometric",
+  "version": "6.0.2",
   "description": "This plugin gives access to the native biometric apis for android and iOS",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -20,8 +20,12 @@
     "docgen": "docgen --api NativeBiometricPlugin --output-readme README.md --output-json dist/docs.json",
     "prepublishOnly": "npm run build"
   },
-  "author": "Martin Donadieu",
+  "author": "Icebergtsn",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Above-Os/capacitor-native-biometric.git"
+  },
   "devDependencies": {
     "@capacitor/android": "^6.0.0",
     "@capacitor/core": "^6.0.0",
@@ -62,10 +66,6 @@
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Cap-go/capacitor-native-biometric"
-  },
   "bugs": {
     "url": "https://github.com/Cap-go/capacitor-native-biometric/issues"
   }
