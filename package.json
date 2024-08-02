@@ -1,6 +1,6 @@
 {
   "name": "@bytetrade/capacitor-native-biometric",
-  "version": "6.0.2",
+  "version": "6.0.4",
   "description": "This plugin gives access to the native biometric apis for android and iOS",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -49,7 +49,7 @@
     "dist/",
     "ios/",
     "android/",
-    "CapgoCapacitorNativeBiometric.podspec"
+    "BytetradeCapacitorNativeBiometric.podspec"
   ],
   "keywords": [
     "capacitor",

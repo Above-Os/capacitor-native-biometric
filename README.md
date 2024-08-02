@@ -4,7 +4,7 @@ Use biometrics confirm device owner presence or authenticate users. A couple of 
 
 ## Installation (Only supports Capacitor 6)
 
-- `npm i @capgo/capacitor-native-biometric`
+- `npm i @bytetrade/capacitor-native-biometric`
 
 ## Usage
 
